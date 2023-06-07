@@ -11,7 +11,7 @@ import SwiftUI
 struct CarrefourChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserView()
         }
     }
 }

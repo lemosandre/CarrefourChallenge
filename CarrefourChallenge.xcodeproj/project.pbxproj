@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3C90DB3C2A2F7E1F00375F8A /* CarrefourChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB3B2A2F7E1F00375F8A /* CarrefourChallengeApp.swift */; };
-		3C90DB3E2A2F7E1F00375F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB3D2A2F7E1F00375F8A /* ContentView.swift */; };
 		3C90DB402A2F7E2000375F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C90DB3F2A2F7E2000375F8A /* Assets.xcassets */; };
 		3C90DB432A2F7E2000375F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C90DB422A2F7E2000375F8A /* Preview Assets.xcassets */; };
 		3C90DB4D2A2F7E2000375F8A /* CarrefourChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB4C2A2F7E2000375F8A /* CarrefourChallengeTests.swift */; };
 		3C90DB572A2F7E2000375F8A /* CarrefourChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB562A2F7E2000375F8A /* CarrefourChallengeUITests.swift */; };
 		3C90DB592A2F7E2000375F8A /* CarrefourChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB582A2F7E2000375F8A /* CarrefourChallengeUITestsLaunchTests.swift */; };
+		3C90DB672A2F86F600375F8A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB662A2F86F600375F8A /* UserModel.swift */; };
+		3CAE411E2A2F960100FB2D7D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE411D2A2F960100FB2D7D /* UserViewModel.swift */; };
+		3CAE41212A2F995800FB2D7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41202A2F995800FB2D7D /* Constants.swift */; };
+		3CAE41242A2FA09E00FB2D7D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41232A2FA09E00FB2D7D /* UserView.swift */; };
+		3CAE41272A2FB3AC00FB2D7D /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41262A2FB3AC00FB2D7D /* UserDetailsView.swift */; };
+		3CAE412B2A2FC8E000FB2D7D /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */; };
+		A9671C67F8925E51F0BE18F8 /* Pods_CarrefourChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48574F40F004DED5B0A58439 /* Pods_CarrefourChallengeTests.framework */; };
+		F63CC5C21412B6679A7C7376 /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA4C9B519D5566FBD278C4E /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework */; };
+		FD11970B6A56E4055D7D3E98 /* Pods_CarrefourChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6B58F7FC748A5981BDA6C9 /* Pods_CarrefourChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FB5FE047094575BE0493D5 /* Pods-CarrefourChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallenge.release.xcconfig"; path = "Target Support Files/Pods-CarrefourChallenge/Pods-CarrefourChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		1BA4C9B519D5566FBD278C4E /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrefourChallenge_CarrefourChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387DBC24B04CFDACE620216A /* Pods-CarrefourChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-CarrefourChallengeTests/Pods-CarrefourChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C90DB382A2F7E1F00375F8A /* CarrefourChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrefourChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C90DB3B2A2F7E1F00375F8A /* CarrefourChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrefourChallengeApp.swift; sourceTree = "<group>"; };
-		3C90DB3D2A2F7E1F00375F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C90DB3F2A2F7E2000375F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C90DB422A2F7E2000375F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C90DB482A2F7E2000375F8A /* CarrefourChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrefourChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,18 @@
 		3C90DB522A2F7E2000375F8A /* CarrefourChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrefourChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C90DB562A2F7E2000375F8A /* CarrefourChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrefourChallengeUITests.swift; sourceTree = "<group>"; };
 		3C90DB582A2F7E2000375F8A /* CarrefourChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrefourChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C90DB662A2F86F600375F8A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3CAE411D2A2F960100FB2D7D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3CAE41202A2F995800FB2D7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3CAE41232A2FA09E00FB2D7D /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		3CAE41262A2FB3AC00FB2D7D /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		48574F40F004DED5B0A58439 /* Pods_CarrefourChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrefourChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DDC4F52FBC62F6FCAC7F41 /* Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrefourChallenge-CarrefourChallengeUITests/Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6732E71F3227F1D45B8D749C /* Pods-CarrefourChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrefourChallengeTests/Pods-CarrefourChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A0C61CFBC8203C495BB7C8E /* Pods-CarrefourChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallenge.debug.xcconfig"; path = "Target Support Files/Pods-CarrefourChallenge/Pods-CarrefourChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B8FB1C290D79DD339E88EE0C /* Pods-CarrefourChallenge-CarrefourChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallenge-CarrefourChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-CarrefourChallenge-CarrefourChallengeUITests/Pods-CarrefourChallenge-CarrefourChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD6B58F7FC748A5981BDA6C9 /* Pods_CarrefourChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrefourChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD11970B6A56E4055D7D3E98 /* Pods_CarrefourChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9671C67F8925E51F0BE18F8 /* Pods_CarrefourChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63CC5C21412B6679A7C7376 /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,8 @@
 				3C90DB4B2A2F7E2000375F8A /* CarrefourChallengeTests */,
 				3C90DB552A2F7E2000375F8A /* CarrefourChallengeUITests */,
 				3C90DB392A2F7E1F00375F8A /* Products */,
+				957E8068669538C5139330BC /* Pods */,
+				AFEF0708D09738862FD95567 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +121,11 @@
 		3C90DB3A2A2F7E1F00375F8A /* CarrefourChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				3CAE41222A2FA07800FB2D7D /* View */,
+				3CAE411F2A2F992B00FB2D7D /* Utils */,
+				3C90DB6D2A2F88E800375F8A /* ViewModel */,
+				3C90DB652A2F860F00375F8A /* Models */,
 				3C90DB3B2A2F7E1F00375F8A /* CarrefourChallengeApp.swift */,
-				3C90DB3D2A2F7E1F00375F8A /* ContentView.swift */,
 				3C90DB3F2A2F7E2000375F8A /* Assets.xcassets */,
 				3C90DB412A2F7E2000375F8A /* Preview Content */,
 			);
@@ -127,6 +157,63 @@
 			path = CarrefourChallengeUITests;
 			sourceTree = "<group>";
 		};
+		3C90DB652A2F860F00375F8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C90DB662A2F86F600375F8A /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C90DB6D2A2F88E800375F8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CAE411D2A2F960100FB2D7D /* UserViewModel.swift */,
+				3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3CAE411F2A2F992B00FB2D7D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3CAE41202A2F995800FB2D7D /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3CAE41222A2FA07800FB2D7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CAE41232A2FA09E00FB2D7D /* UserView.swift */,
+				3CAE41262A2FB3AC00FB2D7D /* UserDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		957E8068669538C5139330BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0C61CFBC8203C495BB7C8E /* Pods-CarrefourChallenge.debug.xcconfig */,
+				04FB5FE047094575BE0493D5 /* Pods-CarrefourChallenge.release.xcconfig */,
+				54DDC4F52FBC62F6FCAC7F41 /* Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig */,
+				B8FB1C290D79DD339E88EE0C /* Pods-CarrefourChallenge-CarrefourChallengeUITests.release.xcconfig */,
+				6732E71F3227F1D45B8D749C /* Pods-CarrefourChallengeTests.debug.xcconfig */,
+				387DBC24B04CFDACE620216A /* Pods-CarrefourChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFEF0708D09738862FD95567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B58F7FC748A5981BDA6C9 /* Pods_CarrefourChallenge.framework */,
+				1BA4C9B519D5566FBD278C4E /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework */,
+				48574F40F004DED5B0A58439 /* Pods_CarrefourChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C90DB5C2A2F7E2000375F8A /* Build configuration list for PBXNativeTarget "CarrefourChallenge" */;
 			buildPhases = (
+				5F95D4FB2333CAF63B39F25F /* [CP] Check Pods Manifest.lock */,
 				3C90DB342A2F7E1F00375F8A /* Sources */,
 				3C90DB352A2F7E1F00375F8A /* Frameworks */,
 				3C90DB362A2F7E1F00375F8A /* Resources */,
+				BCF7E8BAE0EC17246618499C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C90DB5F2A2F7E2000375F8A /* Build configuration list for PBXNativeTarget "CarrefourChallengeTests" */;
 			buildPhases = (
+				E1AB8CECBE0D0D50CA656C42 /* [CP] Check Pods Manifest.lock */,
 				3C90DB442A2F7E2000375F8A /* Sources */,
 				3C90DB452A2F7E2000375F8A /* Frameworks */,
 				3C90DB462A2F7E2000375F8A /* Resources */,
@@ -169,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C90DB622A2F7E2000375F8A /* Build configuration list for PBXNativeTarget "CarrefourChallengeUITests" */;
 			buildPhases = (
+				4D15B9A51043CB184852922D /* [CP] Check Pods Manifest.lock */,
 				3C90DB4E2A2F7E2000375F8A /* Sources */,
 				3C90DB4F2A2F7E2000375F8A /* Frameworks */,
 				3C90DB502A2F7E2000375F8A /* Resources */,
+				B5135726C224366C9952D208 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,12 +344,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D15B9A51043CB184852922D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrefourChallenge-CarrefourChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F95D4FB2333CAF63B39F25F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrefourChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5135726C224366C9952D208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrefourChallenge-CarrefourChallengeUITests/Pods-CarrefourChallenge-CarrefourChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrefourChallenge-CarrefourChallengeUITests/Pods-CarrefourChallenge-CarrefourChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrefourChallenge-CarrefourChallengeUITests/Pods-CarrefourChallenge-CarrefourChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF7E8BAE0EC17246618499C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrefourChallenge/Pods-CarrefourChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrefourChallenge/Pods-CarrefourChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrefourChallenge/Pods-CarrefourChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AB8CECBE0D0D50CA656C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrefourChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C90DB342A2F7E1F00375F8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C90DB3E2A2F7E1F00375F8A /* ContentView.swift in Sources */,
+				3CAE41242A2FA09E00FB2D7D /* UserView.swift in Sources */,
+				3CAE411E2A2F960100FB2D7D /* UserViewModel.swift in Sources */,
+				3CAE41212A2F995800FB2D7D /* Constants.swift in Sources */,
+				3C90DB672A2F86F600375F8A /* UserModel.swift in Sources */,
+				3CAE412B2A2FC8E000FB2D7D /* UserDetailsViewModel.swift in Sources */,
+				3CAE41272A2FB3AC00FB2D7D /* UserDetailsView.swift in Sources */,
 				3C90DB3C2A2F7E1F00375F8A /* CarrefourChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +611,7 @@
 		};
 		3C90DB5D2A2F7E2000375F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0C61CFBC8203C495BB7C8E /* Pods-CarrefourChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +626,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +642,7 @@
 		};
 		3C90DB5E2A2F7E2000375F8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FB5FE047094575BE0493D5 /* Pods-CarrefourChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +657,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +673,7 @@
 		};
 		3C90DB602A2F7E2000375F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6732E71F3227F1D45B8D749C /* Pods-CarrefourChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +694,7 @@
 		};
 		3C90DB612A2F7E2000375F8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387DBC24B04CFDACE620216A /* Pods-CarrefourChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +715,7 @@
 		};
 		3C90DB632A2F7E2000375F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DDC4F52FBC62F6FCAC7F41 /* Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +734,7 @@
 		};
 		3C90DB642A2F7E2000375F8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FB1C290D79DD339E88EE0C /* Pods-CarrefourChallenge-CarrefourChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
