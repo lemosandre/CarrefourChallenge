@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  CarrefourChallenge
+
+  Created by Andre Lemos on 07/06/23.
+  
+*/
+
+"user.title" = "GitHub";
+"repo.title" = "Repositório";
+"repo.empaty" = "Sem Repositório";
+"userdetails.repo" = "Repositório!";
+"userdetails.name" = "Nome:";
+"userdetails.login"= "Login:";
+"userdetails.location" = "Localização:";
+"userdetails.company" = "Empresa:";
+"userdetails.public.repos" = "Repositório Público:";
+"error.subtitle" = "Estamos estáveis ​​no momento, tente novamente mais tarde";

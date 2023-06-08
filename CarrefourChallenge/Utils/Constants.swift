@@ -8,7 +8,15 @@
 import Foundation
 
 struct API {
-    static let getUser = "https://api.github.com/users"
+    private static let url = "https://api.github.com"
+    static let getUser = url + "/users"
+    static let getUserDetails = url + "/users/"
+    static let getRepo = "/repos"
+}
+
+struct Size {
+    static let imageUserSize: CGFloat = 100
+    static let imageUserDetailSize: CGFloat = 300
 }
 
 enum ApiState {
@@ -16,3 +24,4 @@ enum ApiState {
     case loaded
     case failed
 }
+

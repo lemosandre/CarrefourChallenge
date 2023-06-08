@@ -10,27 +10,68 @@ import XCTest
 
 final class CarrefourChallengeTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testApiStateUserViewModel() {
+        let viewModel = UserViewModel()
+        XCTAssertTrue(viewModel.state == ApiState.loading )
+        viewModel.state = ApiState.loaded
+        XCTAssertFalse(viewModel.state == ApiState.loading)
+        viewModel.state = ApiState.failed
+        XCTAssertFalse(viewModel.state == ApiState.loading)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testApiStateUserDetailsViewModel() {
+        let viewModel = UserDetailsViewModel()
+        XCTAssertTrue(viewModel.state == ApiState.loading )
+        viewModel.state = ApiState.loaded
+        XCTAssertFalse(viewModel.state == ApiState.loading)
+        viewModel.state = ApiState.failed
+        XCTAssertFalse(viewModel.state == ApiState.loading)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testApiStateRepoViewModel() {
+        let viewModel = RepoViewModel()
+        XCTAssertTrue(viewModel.state == ApiState.loading )
+        viewModel.state = ApiState.loaded
+        XCTAssertFalse(viewModel.state == ApiState.loading)
+        viewModel.state = ApiState.failed
+        XCTAssertFalse(viewModel.state == ApiState.loading)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testUserModel() {
+        let viewModel = UserViewModel()
+        XCTAssertTrue(viewModel.users.isEmpty)
+        viewModel.users = [UserModel(
+            login: "123",
+            id: 1,
+            nodeID: "123",
+            avatarURL: "123",
+            gravatarID: "123",
+            url: "123",
+            htmlURL: "123",
+            followersURL: "123",
+            followingURL: "123",
+            gistsURL: "123",
+            starredURL: "123",
+            subscriptionsURL: "123",
+            organizationsURL: "123",
+            reposURL: "123",
+            eventsURL: "123",
+            receivedEventsURL: "123",
+            type: "123",
+            siteAdmin: false)]
+        XCTAssertFalse(viewModel.users.isEmpty)
     }
-
+    
+    func testUserDetailModel() {
+        let viewModel = UserDetailsViewModel()
+        viewModel.usersDetails = UserDetailModel(login: "123")
+        XCTAssertFalse(viewModel.usersDetails.login.isEmpty)
+    }
+    
+    func testRepoModel() {
+        let viewModel = RepoViewModel()
+        XCTAssertTrue(viewModel.repos.isEmpty)
+        viewModel.repos = [RepoModel(name: "Andre")]
+        XCTAssertFalse(viewModel.repos.isEmpty)
+    }
 }

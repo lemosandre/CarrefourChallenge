@@ -8,41 +8,42 @@
 import SwiftUI
 
 struct UserView: View {
-    @ObservedObject var userModel = UserViewModel()
+    @ObservedObject var model = UserViewModel()
 
     var body: some View {
-        switch userModel.state {
+        switch model.state {
         case ApiState.loaded:
             NavigationView {
                 
-                List(userModel.users) { element in
-                    HStack {
-                        NavigationLink(destination: UserDetailsView()) {
+                List(model.users) { element in
+                    ZStack {
+                        NavigationLink(destination: UserDetailsView(userLogin: element.login)) {
                             AsyncImage(
                                 url: URL(string: element.avatarURL),
                                 content: { image in
                                     image.resizable()
                                         .aspectRatio(contentMode: .fit)
-                                        .frame(maxWidth: 100, maxHeight: 100)
+                                        .frame(maxWidth: Size.imageUserSize, maxHeight: Size.imageUserSize)
+                                        .clipShape(Circle())
                                 },
                                 placeholder: {
                                     ProgressView()
                                 }
                             )
-                            .frame(width: 100, height: 100)
-                            .background(Color.gray)
+                            .frame(width: Size.imageUserSize, height: Size.imageUserSize)
+                            
                             Text(element.login)
                                 .bold()
                             
                         }
                     }
                 }
-                .navigationTitle("GitHub")
+                .navigationTitle("user.title")
             }
         case ApiState.loading:
             ProgressView()
         case .failed:
-            EmptyView()
+            ErrorView()
         }
     }
 }

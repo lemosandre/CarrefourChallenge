@@ -12,6 +12,7 @@ struct CarrefourChallengeApp: App {
     var body: some Scene {
         WindowGroup {
             UserView()
+                .environment(\.locale, .init(identifier: "pt-BR"))
         }
     }
 }

@@ -1,25 +1,24 @@
 //
-//  UserDetailsViewModel.swift
+//  RepoViewModel.swift
 //  CarrefourChallenge
 //
-//  Created by Andre Lemos on 06/06/23.
+//  Created by Andre Lemos on 07/06/23.
 //
 
 import Foundation
 import Alamofire
 
-class UserDetailsViewModel: ObservableObject {
+class RepoViewModel: ObservableObject {
     
     @Published var state = ApiState.loading
-    @Published var usersDetails = UserDetailModel()
-
+    @Published var repos = [RepoModel]()
     
-    func getUsersDetails(userLogin: String) {
-        AF.request(API.getUserDetails + userLogin, method: .get).responseDecodable(of: UserDetailModel.self) { response in
+    func getRepo(userLogin: String) {
+        AF.request(API.getUserDetails + userLogin + API.getRepo , method: .get).responseDecodable(of: [RepoModel].self) { response in
             switch response.result {
             case .success(let data):
                 self.state = ApiState.loaded
-                self.usersDetails = data
+                self.repos = data
             case .failure(let error):
                 self.state = ApiState.failed
                 print(error)

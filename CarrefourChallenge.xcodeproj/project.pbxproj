@@ -19,6 +19,19 @@
 		3CAE41242A2FA09E00FB2D7D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41232A2FA09E00FB2D7D /* UserView.swift */; };
 		3CAE41272A2FB3AC00FB2D7D /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41262A2FB3AC00FB2D7D /* UserDetailsView.swift */; };
 		3CAE412B2A2FC8E000FB2D7D /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */; };
+		3CAE412E2A30C76B00FB2D7D /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE412D2A30C76B00FB2D7D /* UserDetailModel.swift */; };
+		3CAE41342A311B1800FB2D7D /* RepoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41332A311B1800FB2D7D /* RepoView.swift */; };
+		3CAE41362A311B2800FB2D7D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41352A311B2800FB2D7D /* ErrorView.swift */; };
+		3CAE413A2A31591A00FB2D7D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CAE413C2A31591A00FB2D7D /* Localizable.strings */; };
+		3CAE413F2A315B2B00FB2D7D /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE413E2A315B2B00FB2D7D /* RepoViewModel.swift */; };
+		3CAE41412A315CAE00FB2D7D /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41402A315CAE00FB2D7D /* RepoModel.swift */; };
+		3CAE41422A32454100FB2D7D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE411D2A2F960100FB2D7D /* UserViewModel.swift */; };
+		3CAE41432A32484500FB2D7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41202A2F995800FB2D7D /* Constants.swift */; };
+		3CAE41442A32484900FB2D7D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90DB662A2F86F600375F8A /* UserModel.swift */; };
+		3CAE41452A324FB100FB2D7D /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE412D2A30C76B00FB2D7D /* UserDetailModel.swift */; };
+		3CAE41462A324FB400FB2D7D /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE41402A315CAE00FB2D7D /* RepoModel.swift */; };
+		3CAE41472A324FB700FB2D7D /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */; };
+		3CAE41482A324FB900FB2D7D /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE413E2A315B2B00FB2D7D /* RepoViewModel.swift */; };
 		A9671C67F8925E51F0BE18F8 /* Pods_CarrefourChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48574F40F004DED5B0A58439 /* Pods_CarrefourChallengeTests.framework */; };
 		F63CC5C21412B6679A7C7376 /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA4C9B519D5566FBD278C4E /* Pods_CarrefourChallenge_CarrefourChallengeUITests.framework */; };
 		FD11970B6A56E4055D7D3E98 /* Pods_CarrefourChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6B58F7FC748A5981BDA6C9 /* Pods_CarrefourChallenge.framework */; };
@@ -60,6 +73,13 @@
 		3CAE41232A2FA09E00FB2D7D /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		3CAE41262A2FB3AC00FB2D7D /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		3CAE412D2A30C76B00FB2D7D /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		3CAE41332A311B1800FB2D7D /* RepoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoView.swift; sourceTree = "<group>"; };
+		3CAE41352A311B2800FB2D7D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		3CAE41372A31563A00FB2D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3CAE413B2A31591A00FB2D7D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3CAE413E2A315B2B00FB2D7D /* RepoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewModel.swift; sourceTree = "<group>"; };
+		3CAE41402A315CAE00FB2D7D /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
 		48574F40F004DED5B0A58439 /* Pods_CarrefourChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrefourChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DDC4F52FBC62F6FCAC7F41 /* Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrefourChallenge-CarrefourChallengeUITests/Pods-CarrefourChallenge-CarrefourChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6732E71F3227F1D45B8D749C /* Pods-CarrefourChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrefourChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrefourChallengeTests/Pods-CarrefourChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +119,7 @@
 		3C90DB2F2A2F7E1F00375F8A = {
 			isa = PBXGroup;
 			children = (
+				3CAE413C2A31591A00FB2D7D /* Localizable.strings */,
 				3C90DB3A2A2F7E1F00375F8A /* CarrefourChallenge */,
 				3C90DB4B2A2F7E2000375F8A /* CarrefourChallengeTests */,
 				3C90DB552A2F7E2000375F8A /* CarrefourChallengeUITests */,
@@ -121,6 +142,7 @@
 		3C90DB3A2A2F7E1F00375F8A /* CarrefourChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				3CAE41372A31563A00FB2D7D /* Info.plist */,
 				3CAE41222A2FA07800FB2D7D /* View */,
 				3CAE411F2A2F992B00FB2D7D /* Utils */,
 				3C90DB6D2A2F88E800375F8A /* ViewModel */,
@@ -161,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				3C90DB662A2F86F600375F8A /* UserModel.swift */,
+				3CAE412D2A30C76B00FB2D7D /* UserDetailModel.swift */,
+				3CAE41402A315CAE00FB2D7D /* RepoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +194,7 @@
 			children = (
 				3CAE411D2A2F960100FB2D7D /* UserViewModel.swift */,
 				3CAE412A2A2FC8E000FB2D7D /* UserDetailsViewModel.swift */,
+				3CAE413E2A315B2B00FB2D7D /* RepoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +212,8 @@
 			children = (
 				3CAE41232A2FA09E00FB2D7D /* UserView.swift */,
 				3CAE41262A2FB3AC00FB2D7D /* UserDetailsView.swift */,
+				3CAE41332A311B1800FB2D7D /* RepoView.swift */,
+				3CAE41352A311B2800FB2D7D /* ErrorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +332,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 3C90DB2F2A2F7E1F00375F8A;
 			productRefGroup = 3C90DB392A2F7E1F00375F8A /* Products */;
@@ -324,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C90DB432A2F7E2000375F8A /* Preview Assets.xcassets in Resources */,
+				3CAE413A2A31591A00FB2D7D /* Localizable.strings in Resources */,
 				3C90DB402A2F7E2000375F8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,10 +483,15 @@
 			files = (
 				3CAE41242A2FA09E00FB2D7D /* UserView.swift in Sources */,
 				3CAE411E2A2F960100FB2D7D /* UserViewModel.swift in Sources */,
+				3CAE413F2A315B2B00FB2D7D /* RepoViewModel.swift in Sources */,
 				3CAE41212A2F995800FB2D7D /* Constants.swift in Sources */,
+				3CAE412E2A30C76B00FB2D7D /* UserDetailModel.swift in Sources */,
+				3CAE41412A315CAE00FB2D7D /* RepoModel.swift in Sources */,
 				3C90DB672A2F86F600375F8A /* UserModel.swift in Sources */,
+				3CAE41362A311B2800FB2D7D /* ErrorView.swift in Sources */,
 				3CAE412B2A2FC8E000FB2D7D /* UserDetailsViewModel.swift in Sources */,
 				3CAE41272A2FB3AC00FB2D7D /* UserDetailsView.swift in Sources */,
+				3CAE41342A311B1800FB2D7D /* RepoView.swift in Sources */,
 				3C90DB3C2A2F7E1F00375F8A /* CarrefourChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +500,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAE41482A324FB900FB2D7D /* RepoViewModel.swift in Sources */,
 				3C90DB4D2A2F7E2000375F8A /* CarrefourChallengeTests.swift in Sources */,
+				3CAE41422A32454100FB2D7D /* UserViewModel.swift in Sources */,
+				3CAE41452A324FB100FB2D7D /* UserDetailModel.swift in Sources */,
+				3CAE41442A32484900FB2D7D /* UserModel.swift in Sources */,
+				3CAE41472A324FB700FB2D7D /* UserDetailsViewModel.swift in Sources */,
+				3CAE41432A32484500FB2D7D /* Constants.swift in Sources */,
+				3CAE41462A324FB400FB2D7D /* RepoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +534,17 @@
 			targetProxy = 3C90DB532A2F7E2000375F8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CAE413C2A31591A00FB2D7D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAE413B2A31591A00FB2D7D /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C90DB5A2A2F7E2000375F8A /* Debug */ = {
@@ -621,9 +673,9 @@
 				DEVELOPMENT_TEAM = DMY7Q9SS25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrefourChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -652,9 +704,9 @@
 				DEVELOPMENT_TEAM = DMY7Q9SS25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrefourChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

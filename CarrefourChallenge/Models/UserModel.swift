@@ -6,7 +6,7 @@
 //
 
 import Foundation
-// MARK: - UserModelElement
+
 struct UserModel: Identifiable, Codable {
     let login: String
     let id: Int
